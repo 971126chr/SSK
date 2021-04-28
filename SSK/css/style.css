@@ -1,6 +1,13 @@
 body {
-    margin: 0 auto;
+    margin: 0 30px;
     box-sizing: border-box;
+}
+.wrap {
+    position: relative;
+}
+.section-menu {
+    position: absolute;
+    right: 7px;
 }
 a.section-menu-text {
     text-decoration: none;
@@ -14,4 +21,43 @@ strong.section-menu-bold {
     font-size: 12px;
     letter-spacing: -1px;
     padding-left: 6px;
+}
+.main-border {
+    display: inline-block;
+    margin-top: 16px;
+    width: 100%;
+    height: 100%;
+}
+.main-border-top-left {
+    background: url("../img/section-border-top-left.png") no-repeat left;
+    height: 5px;
+}
+.main-border-top {
+    background: url("../img/section-border-repeat.png") repeat-x top;
+    height: 1px;
+    min-width: 814px;
+}
+.main-border-top-right {
+    background: url("../img/section-border-top-right.png") no-repeat right;
+    height: 5px;
+}
+.main-border-right {
+    background: url("../img/section-border-repeat.png") repeat-y right;
+    min-height: 668px;
+}
+.main-border-bottom-right {
+    background: url("../img/section-border-bottom-right.png") no-repeat bottom right;
+    min-height: 668px;
+}
+.main-border-bottom {
+    background: url("../img/section-border-repeat.png") repeat-x bottom;
+    min-height: 668px;
+}
+.main-border-bottom-left {
+    background: url("../img/section-border-bottom-left.png") no-repeat bottom left;
+    min-height: 668px;
+}
+.main-border-left {
+    background: url("../img/section-border-repeat.png") repeat-y left;
+    min-height: 668px;
 }
