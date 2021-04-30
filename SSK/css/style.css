@@ -22,15 +22,12 @@ strong.section-menu-bold {
     letter-spacing: -1px;
     padding-left: 6px;
 }
-.main-border {
+.main-border-top-left {
+    background: url("../img/section-border-top-left.png") no-repeat left;
     display: inline-block;
     margin-top: 16px;
     width: 100%;
     height: 100%;
-}
-.main-border-top-left {
-    background: url("../img/section-border-top-left.png") no-repeat left;
-    height: 5px;
 }
 .main-border-top {
     background: url("../img/section-border-repeat.png") repeat-x top;
@@ -43,21 +40,106 @@ strong.section-menu-bold {
 }
 .main-border-right {
     background: url("../img/section-border-repeat.png") repeat-y right;
-    min-height: 668px;
+    min-height: 624px;
 }
 .main-border-bottom-right {
     background: url("../img/section-border-bottom-right.png") no-repeat bottom right;
-    min-height: 668px;
+    min-height: 624px;
 }
 .main-border-bottom {
     background: url("../img/section-border-repeat.png") repeat-x bottom;
-    min-height: 668px;
+    min-height: 624px;
 }
 .main-border-bottom-left {
     background: url("../img/section-border-bottom-left.png") no-repeat bottom left;
-    min-height: 668px;
+    min-height: 624px;
 }
 .main-border-left {
     background: url("../img/section-border-repeat.png") repeat-y left;
-    min-height: 668px;
+    min-height: 624px;
+    padding: 21px 19px 23px 21px;
+}
+h2.section-h2 {
+    background: url("../img/green-arrow.png") no-repeat;
+    padding: 5px 0 5px 39px;
+    font-size: 17px;
+    letter-spacing: -2.5px;
+}
+span.h2-color {
+    color: #e76405;
+}
+.calendar-top-button {
+    margin-top: 17px;
+    text-align: center;
+}
+button.calendar-button,button.calendar-button-right {
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    font-size: 11px;
+    color: #686868;
+    letter-spacing: -1px;
+    padding: 1px 6px 1px 5px;
+}
+button.calendar-button {
+    padding: 1px 6px 1px 5px;
+}
+button.calendar-button-right {
+    padding: 1px 4px 1px 6px;
+}
+span.red-left-arrow {
+    background: url("../img/red-left-arrow.png") no-repeat center left;
+    padding: 2px 7px 0 0;
+}
+span.red-right-arrow {
+    background: url("../img/red-right-arrow.png") no-repeat right center;
+    padding: 2px 0 0 8px;
+}
+select.pull-down-menus {
+    font-size: 12px;
+    padding: 2px;
+}
+table.table {
+    margin-top: 13px;
+    width: 100%;
+}
+tr td {
+    border: 1px solid #dddddd;
+}
+td:hover {
+    border-collapse: separate;
+    border: 1px solid #f09457;
+}
+tr.first-tr {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 28px;
+    background: linear-gradient( to bottom, #ffffff, #efefef);
+}
+tr.first-tr td {
+    padding: 0 29px 0 28px;
+    height: 28px;
+
+}
+td.text-red {
+    color: #e44c2e;
+}
+td.text-blue {
+    color: #3176c4;
+}
+td {
+    height: 85px;
+    font-size: 11px;
+    color: #5b5b5b;
+    padding: 5px 0 0 6px;
+}
+td.last-month {
+    background: #f7f7f7;
+}
+span.text-orange {
+    color: #f18061;
+}
+td.today {
+    background: #fcf3de;
 }
