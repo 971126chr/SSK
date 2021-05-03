@@ -123,14 +123,21 @@ td.table-td {
     font-size: 11px;
     color: #5b5b5b;
 }
+tr.third-tr td.table-td {
+    padding: 1px;
+    font-size: 11px;
+    color: #5b5b5b;
+    height: 70px;
+}
 div.table-hover {
     padding: 4px 0 63px 5px;
 }
-/*
-tr.third-tr td div.table-hover {
+tr.third-tr td.table-td:nth-child(4) div.table-hover {
     padding: 4px 0 48px 5px;
 }
-*/
+tr:nth-child(n+4) td.table-td div.table-hover {
+    padding: 4px 0 78px 5px;
+}
 a.see-more {
     font-size: 0;
 }
