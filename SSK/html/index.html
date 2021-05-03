@@ -16,14 +16,14 @@
                 </a>
                 <strong class="section-menu-bold">연구일정</strong>
             </div>
-            <div class="main-border-top-left">
-                <div class="main-border-top">
-                    <div class="main-border-top-right">
-                        <div class="main-border-right">
-                            <div class="main-border-bottom-right">
-                                <div class="main-border-bottom">
-                                    <div class="main-border-bottom-left">
-                                        <div class="main-border-left">
+            <div class="main-border-top">
+                <div class="main-border-top-left">
+                    <div class="main-border-right">
+                        <div class="main-border-top-right">
+                            <div class="main-border-bottom">
+                                <div class="main-border-bottom-right">
+                                    <div class="main-border-left">
+                                        <div class="main-border-bottom-left">
                                             <h2 class="section-h2">
                                                 <span class="h2-color">연구</span>일정
                                             </h2>
@@ -32,7 +32,7 @@
                                                     <span class="red-left-arrow"></span>
                                                     이전달
                                                 </button>
-                                                <select name="year" class="pull-down-menus">
+                                                <select name="year" class="pull-down-menus" title="년도 선택">
                                                     <option value="2011년" selected="selected">2011년</option>
                                                     <option value="2012년">2012년</option>
                                                     <option value="2013년">2013년</option>
@@ -45,7 +45,7 @@
                                                     <option value="2020년">2020년</option>
                                                     <option value="2021년">2021년</option>
                                                 </select>
-                                                <select name="month" class="pull-down-menus">
+                                                <select name="month" class="pull-down-menus" title="월 선택">
                                                     <option value="01월" selected="selected">01월</option>
                                                     <option value="02월">02월</option>
                                                     <option value="03월">03월</option>
@@ -64,7 +64,7 @@
                                                     <span class="red-right-arrow"></span>
                                                 </button>
                                             </div>
-                                            <table class="table">
+                                            <table class="calendar-table">
                                                 <colgroup>
                                                     <col style="width: 14.5%;">
                                                     <col style="width: 14.5%;">
@@ -87,55 +87,248 @@
                                                     <tr>
                                                         <td class="last-month"></td>
                                                         <td class="last-month"></td>
-                                                        <td>1</td>
-                                                        <td>2</td>
-                                                        <td>3</td>
-                                                        <td>4</td>
-                                                        <td>5</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>7</td>
-                                                        <td>8</td>
-                                                        <td>9<br>
-                                                            <span class="text-orange">주간보고회</span>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <strong>1</strong>
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
                                                         </td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <strong>2</strong>
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <strong>3</strong>
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <strong>4</strong>
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <strong>5</strong>
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="third-tr">
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <strong>6</strong>
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <strong>7</strong>
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <strong>8</strong>
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <strong>9</strong><br>
+                                                                <a href="#none" class="text-orange">주간보고회</a>
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
                                                     </tr>
                                                     <tr>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td class="today"></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td today">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
                                                     </tr>
                                                     <tr>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
                                                     </tr>
                                                     <tr>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
                                                     </tr>
                                                     <tr>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
-                                                        <td></td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="table-td">
+                                                            <div class="table-hover">
+                                                                <a href="#none" class="see-more">
+                                                                    더보기</a>
+                                                            </div>
+                                                        </td>
                                                         <td class="last-month"></td>
                                                         <td class="last-month"></td>
                                                         <td class="last-month"></td>

@@ -280,6 +280,7 @@ ul.aside-list-2>li>a:hover {
     background: url("../img/section/orange-text-border-right.png") no-repeat right;
     height: 32px;
     display: flex;
+    padding-right: 33px;
 }
 .orange-text-marker {
     background: url("../img/section/orange-text-marker.png") no-repeat;
